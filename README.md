@@ -17,5 +17,11 @@ of the framework is used and an added bonus is that you may stumble across a gre
 need to find out about js frameworks at a website. Check out [jQuerify Bookmarklet](http://www.learningjquery.com/2006/12/jquerify-bookmarklet) for a detailed explanation of how
 this kind of snippets can be used.
 
+#Please Contribute
+  This project will be much more complete if you can submit pull requests to improve the robustness
+of JS Framework detections, fix errors.
+
 #Special Thanks
   * Many thanks to Karl Swedberg for his wonderful post [Better, Stronger, Safer jQuerify Bookmarklet](http://www.learningjquery.com/2009/04/better-stronger-safer-jquerify-bookmarklet). I have shamelessly stolen his code for making the pink div showing a msg.
+
+  * Thanks to Franck Marcia for making this [JS Minifier](http://fmarcia.info/jsmin/test.html) and letting us use for free.
