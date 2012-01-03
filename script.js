@@ -96,5 +96,13 @@ javascript:(function() {
     if (typeof dojo === 'object') {
       libs.push('Dojo' + dojo.version.toString());
     }
+
+    if (typeof YUI === 'function') {
+      libs.push('YUI' + YUI.version);
+    }
+
+    if (typeof MochiKit === 'object') {
+      libs.push('MochiKit' + MochiKit.MochiKit.VERSION);
+    }
   }
 })();
