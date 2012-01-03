@@ -14,7 +14,7 @@ javascript:(function() {
       fontSize: '12px',
       color: '#222',
       backgroundColor: '#f99',
-      zIndex: 1001
+      zIndex: 9999
   });
 
   whichJS(libs);
@@ -103,6 +103,10 @@ javascript:(function() {
 
     if (typeof MochiKit === 'object') {
       libs.push('MochiKit' + MochiKit.MochiKit.VERSION);
+    }
+
+    if (typeof SC === 'object') {
+      libs.push('SproutCore' + SC.VERSION);
     }
   }
 })();
