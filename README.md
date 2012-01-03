@@ -25,3 +25,5 @@ of JS Framework detections, fix errors.
   * Many thanks to Karl Swedberg for his wonderful post [Better, Stronger, Safer jQuerify Bookmarklet](http://www.learningjquery.com/2009/04/better-stronger-safer-jquerify-bookmarklet). I have shamelessly stolen his code for making the pink div showing a msg.
 
   * Thanks to Franck Marcia for making this [JS Minifier](http://fmarcia.info/jsmin/test.html) and letting us use for free.
+
+  * Thanks to [EveryJS](http://www.everyjs.com/) for the great coverage of JS Frameworks.
