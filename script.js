@@ -92,5 +92,9 @@ javascript:(function() {
     if (typeof Modernizr === 'object') {
       libs.push('Modernizr' + Modernizr._version);
     }
+
+    if (typeof dojo === 'object') {
+      libs.push('Dojo' + dojo.version.toString());
+    }
   }
 })();
