@@ -84,5 +84,9 @@ javascript:(function() {
     if (typeof Backbone === 'object') {
       libs.push('BackboneJS' + Backbone.VERSION);
     }
+
+    if (typeof Prototype === 'object') {
+      libs.push('Prototype' + Prototype.Version);
+    }
   }
 })();
