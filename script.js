@@ -6,7 +6,7 @@ javascript:(function() {
   applyStyles( el, {
       position: 'fixed',
       height: '50px',
-      width: '220px',
+      width: '300px',
       marginLeft: '-110px',
       top: '0',
       left: '50%',
@@ -23,7 +23,7 @@ javascript:(function() {
   function showMsg(libs) {
     var msg;
     if (libs.length === 0) {
-      msg = 'No known JS library is found to be used! May be WhichJS does not yet know about this JS library.';
+      msg = 'No known JS library is found! Maybe WhichJS does not yet know about this JS library.';
     } else {
       msg = 'Following JS Libraries are used: ';
       libs.forEach(function(libName) {
