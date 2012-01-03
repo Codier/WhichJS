@@ -88,5 +88,9 @@ javascript:(function() {
     if (typeof Prototype === 'object') {
       libs.push('Prototype' + Prototype.Version);
     }
+
+    if (typeof Modernizr === 'object') {
+      libs.push('Modernizr' + Modernizr._version);
+    }
   }
 })();
