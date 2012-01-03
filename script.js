@@ -71,10 +71,18 @@ javascript:(function() {
         libs.push('MoolTools More' +  MooTools.More.version);
       }
     }
-    
+
     if (typeof angular === 'object') {
       var v = angular.version ? angular.version.full : '';
       libs.push('AngularJS' + v);
+    }
+
+    if (typeof ko === 'object') {
+      libs.push('KnockOutJS');
+    }
+
+    if (typeof Backbone === 'object') {
+      libs.push('BackboneJS' + Backbone.VERSION);
     }
   }
 })();
