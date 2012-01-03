@@ -27,7 +27,7 @@ javascript:(function() {
     } else {
       msg = 'Following JS Libraries are used: ';
       libs.forEach(function(libName) {
-        msg += libName;
+        msg += (libName + ', ');
       })
     }
     el.innerHTML= msg;
@@ -46,6 +46,9 @@ javascript:(function() {
   function whichJS(libs) {
     if (typeof jQuery === 'function') {
       libs.push('jQuery' +  jQuery.fn.jquery);
+      if (typeof jQuery.ui === 'object') {
+        libs.push('jQueryUI' +  jQuery.ui.version);
+      }
     }
 
     if (typeof Ext === 'object') {
