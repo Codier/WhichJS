@@ -64,5 +64,12 @@ javascript:(function() {
       }
       libs.push(ext);
     }
+
+    if (typeof MooTools === 'object') {
+      libs.push('MooTools' +  MooTools.version);
+      if (typeof MooTools.More === 'object') {
+        libs.push('MoolTools More' +  MooTools.More.version);
+      }
+    }
   }
 })();
