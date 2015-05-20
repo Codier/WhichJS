@@ -108,5 +108,14 @@ javascript:(function() {
     if (typeof SC === 'object') {
       libs.push('SproutCore' + SC.VERSION);
     }
+    
+    if (typeof $ === 'function' && typeof $().modal === 'function') {
+      // http://stackoverflow.com/questions/13933000/
+      if (typeof $().emulateTransitionEnd == 'function') {
+        libs.push('Bootstrap' + $.fn.tooltip.Constructor.VERSION);
+      } else {
+        libs.push('Bootstrap2.x.x');
+      }
+    }
   }
 })();
